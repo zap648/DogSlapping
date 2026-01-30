@@ -17,8 +17,11 @@ public class UIController : MonoBehaviour
 
     void TriggerButton()
     {
-        if (Input.anyKeyDown && startCanvas.activeSelf) StartGame();
-        if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
+        if (Input.anyKeyDown && startCanvas.activeSelf)
+        {
+            StartGame();
+        }
+        else if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
     }
 
     public void StartGame()
