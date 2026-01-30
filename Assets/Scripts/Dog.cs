@@ -5,6 +5,7 @@ public class Dog : MonoBehaviour
     [SerializeField] private bool isSad;
     [SerializeField] private bool isEntering = true;
     [SerializeField] private bool isLeaving = false;
+    [SerializeField] private bool slappable = false;
     private float elapsedTime;
     private Vector2 startPosition;
     private Vector2 endPosition = Vector2.zero;
@@ -53,8 +54,10 @@ public class Dog : MonoBehaviour
         elapsedTime += Time.deltaTime;
     }
 
-    public void Slapped()
+    public bool Slapped()
     {
-
+        if (isSad)
+            isLeaving = true;
+        return slappable;
     }
 }
