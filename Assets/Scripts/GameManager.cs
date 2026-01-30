@@ -35,8 +35,7 @@ public class GameManager : MonoBehaviour
         {
             int index = Random.Range(0, dogs.Count);
             dog = Instantiate(dogs[index], new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), Quaternion.identity);
-            dog.transform.position.Normalize();
-            dog.transform.position *= 15.0f;
+            dog.transform.position = dog.transform.position.normalized * 15;
         }
     }
 
