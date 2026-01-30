@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,10 +9,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int highScore;
     private GameObject dog;
     [SerializeField] private List<GameObject> dogs;
-    [SerializeField] private float timer = 3.0f;
     [SerializeField] private GameObject slapThingy;
+    [SerializeField] private GameObject startMenu;
     [SerializeField] private AudioSource slapSound;
-    [SerializeField] private bool menu;
     [SerializeField] private bool gameOver;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,19 +23,27 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (startMenu.activeSelf)
         {
-            Slap();
-        }
-
-        if (menu)
             return;
+        }
 
         if (dog == null)
         {
             int index = Random.Range(0, dogs.Count);
             dog = Instantiate(dogs[index], new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), Quaternion.identity);
             dog.transform.position = dog.transform.position.normalized * 15;
+        }
+        else if (Input.anyKeyDown)
+        {
+            if (gameOver)
+            {
+                gameOver = false;
+                Destroy(dog);
+                return;
+            }
+            
+            Slap();
         }
     }
 
@@ -61,6 +69,8 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         score = 0;
+        gameOver = true;
+        Camera.main.GetComponent<UIController>().LoseGame();
         Debug.Log("Game Over!");
     }
 

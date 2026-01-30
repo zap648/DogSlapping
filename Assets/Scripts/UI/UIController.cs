@@ -21,7 +21,7 @@ public class UIController : MonoBehaviour
         {
             StartGame();
         }
-        else if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
+        //else if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
     }
 
     public void StartGame()
