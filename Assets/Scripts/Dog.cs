@@ -4,9 +4,10 @@ public class Dog : MonoBehaviour
 {
     [SerializeField] private bool isSad;
     [SerializeField] private bool isEntering = true;
-    [SerializeField] private bool isLeaving = false;
+    public bool isLeaving = false;
     [SerializeField] private bool slappable = false;
     private float elapsedTime;
+    private float waitingTime;
     private Vector2 startPosition;
     private Vector2 endPosition = Vector2.zero;
 
@@ -14,6 +15,17 @@ public class Dog : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
+        isSad = Random.value < 0.7f;
+        if (isSad)
+        {
+            // Set sad dog sprite or animation here
+            GetComponent<SpriteRenderer>().color = Color.blue; // Example: change color to blue for sad dog
+        }
+        else
+        {
+            // Set happy dog sprite or animation here
+            GetComponent<SpriteRenderer>().color = Color.yellow; // Example: change color to yellow for happy dog
+        }
     }
 
     // Update is called once per frame
@@ -23,6 +35,18 @@ public class Dog : MonoBehaviour
             MoveIn();
         else if (isLeaving)
             MoveOut();
+
+        if (slappable)
+        {
+            // Optional: Add some visual indication that the dog can be slapped
+            waitingTime += Time.deltaTime;
+            if (waitingTime >= 3.0f)
+            {
+                isLeaving = true;
+                slappable = false;
+                waitingTime = 0.0f;
+            }
+        }
     }
 
     private void MoveIn()
@@ -34,6 +58,7 @@ public class Dog : MonoBehaviour
             transform.position = endPosition;
             isEntering = false;
             startPosition = -startPosition;
+            slappable = true;
             return;
         }
         transform.position = Vector2.Lerp(startPosition, endPosition, elapsedTime);
@@ -48,6 +73,7 @@ public class Dog : MonoBehaviour
             elapsedTime = 0.0f;
             transform.position = startPosition;
             isLeaving = false;
+            Destroy(gameObject);
             return;
         }
         transform.position = Vector2.Lerp(endPosition, startPosition, elapsedTime);
@@ -56,8 +82,20 @@ public class Dog : MonoBehaviour
 
     public bool Slapped()
     {
+        if (!slappable)
+            return false;
+
         if (isSad)
+        {
             isLeaving = true;
-        return slappable;
+            slappable = false;
+            return true;
+        }
+        else
+        {
+            isLeaving = false;
+            slappable = false;
+            return true;
+        }
     }
 }
