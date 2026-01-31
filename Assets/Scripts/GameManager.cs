@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     {
         slapThingy.SetActive(false);
         slapTimerMax = slapTimer;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -65,7 +66,7 @@ public class GameManager : MonoBehaviour
 
     private void Slap()
     {
-        StartCoroutine(SlapThing(0.1f));
+        StartCoroutine(SlapThing(0.5f));
 
         if (!dog.GetComponent<Dog>().Slapped())
         {

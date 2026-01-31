@@ -220,6 +220,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 277701070}
+    - target: {fileID: 2827352803327529037, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3884644698954742224, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: m_Name
       value: UI
@@ -328,6 +332,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 604541058701124197, guid: 8819c9798a06dd344bf3cfeaad8541ef, type: 3}
   m_PrefabInstance: {fileID: 4673444666385580305}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1860939585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860939580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
+--- !u!114 &1860939586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860939580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Slap","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &4234416891150065087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -484,7 +518,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 604541058701124197, guid: 8819c9798a06dd344bf3cfeaad8541ef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860939586}
+    - targetCorrespondingSourceObject: {fileID: 604541058701124197, guid: 8819c9798a06dd344bf3cfeaad8541ef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860939585}
   m_SourcePrefab: {fileID: 100100000, guid: 8819c9798a06dd344bf3cfeaad8541ef, type: 3}
 --- !u!1001 &5565918940369411190
 PrefabInstance:
