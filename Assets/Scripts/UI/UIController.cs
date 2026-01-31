@@ -5,6 +5,7 @@ public class UIController : MonoBehaviour
 {
     public GameObject startCanvas;
     public GameObject loseCanvas;
+    public GameObject gameCanvas;
     public TMP_Text scoreText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +17,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         TriggerButton();
-        UpdateScoreText();
+        if (gameCanvas.activeSelf) UpdateScoreText();
     }
 
     void TriggerButton()
@@ -32,12 +33,14 @@ public class UIController : MonoBehaviour
     {
         Debug.Log("Clicked button");
         startCanvas.SetActive(false);
+        gameCanvas.SetActive(true);
     }
 
     public void LoseGame()
     {
         Debug.Log("You are murderer");
         loseCanvas.SetActive(true);
+        gameCanvas.SetActive(false);
     }
 
     public void MainMenu()
@@ -50,7 +53,6 @@ public class UIController : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText = GameObject.Find("GameManager").GetComponent<GameManager>().score;
-        Debug.Log(scoreText);
+        scoreText.text = GameObject.Find("GameManager").GetComponent<GameManager>().score.ToString();
     }
 }
