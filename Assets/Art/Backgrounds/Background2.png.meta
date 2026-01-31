@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43ecef36309e4a5439234cf3ceb86d81
+guid: b0f8a2e6b01570d488011713db8b6c01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2243294885473483319
-    second: MURDERER_LoseBG_0
+      213: 7282461348544508605
+    second: Background2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MURDERER_LoseBG_0
+      name: Background2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73af81710d8c12f10800000000000000
-      internalID: 2243294885473483319
+      spriteID: db2f18a2300801560800000000000000
+      internalID: 7282461348544508605
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MURDERER_LoseBG_0: 2243294885473483319
+      Background2_0: 7282461348544508605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Masks : MonoBehaviour
+public class Mask : MonoBehaviour
 {
     public Rigidbody2D rb;
 
@@ -9,7 +9,7 @@ public class Masks : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        rb.AddForce(-transform.right * 100f);
+        rb.AddForce(-transform.right * 200f);
         rb.AddForce(transform.up * 150f);
 
         rb.angularVelocity += 500f;
