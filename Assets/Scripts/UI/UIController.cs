@@ -7,17 +7,29 @@ public class UIController : MonoBehaviour
     public GameObject loseCanvas;
     public GameObject gameCanvas;
     public TMP_Text scoreText;
+    public GameObject[] gameBackgrounds;
+    int score;
+
+    private int level = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        score = GameObject.Find("GameManager").GetComponent<GameManager>().score;
     }
 
     // Update is called once per frame
     void Update()
     {
         TriggerButton();
+        ShowBackground();
         if (gameCanvas.activeSelf) UpdateScoreText();
+
+        //Change the level after a certain score has been obtained.
+        if (score == 10) level = 1;
+        if (score == 30) level = 2;
+        if (score == 60) level = 3;
+        if (score == 100) level = 4;
     }
 
     void TriggerButton()
@@ -34,6 +46,7 @@ public class UIController : MonoBehaviour
         Debug.Log("Clicked button");
         startCanvas.SetActive(false);
         gameCanvas.SetActive(true);
+        level = 0;
     }
 
     public void LoseGame()
@@ -53,6 +66,18 @@ public class UIController : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = GameObject.Find("GameManager").GetComponent<GameManager>().score.ToString();
+        scoreText.text = score.ToString();
+    }
+
+    void ShowBackground()
+    {
+        foreach (GameObject background in gameBackgrounds)
+        {
+            if (System.Array.IndexOf(gameBackgrounds, background) == level)
+            {
+                background.SetActive(true);
+            }
+            else background.SetActive(false);
+        }
     }
 }
