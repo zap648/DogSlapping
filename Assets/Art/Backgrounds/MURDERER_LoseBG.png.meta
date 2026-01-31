@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 3cfeb43b3a4034948b91611c4f5d564e
+guid: 43ecef36309e4a5439234cf3ceb86d81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3962135299906821353
-    second: Slap_0
-  - first:
-      213: 1730731976012922385
-    second: Slap_1
-  - first:
-      213: 2147920089116799096
-    second: Slap_2
-  - first:
-      213: -6894216653947103410
-    second: Slap_3
+      213: 2243294885473483319
+    second: MURDERER_LoseBG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slap_0
+      name: MURDERER_LoseBG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 177
-        height: 173
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ec5bfe10155cf630800000000000000
-      internalID: 3962135299906821353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slap_1
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 162
-        width: 112
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11ef8a7ff8bc40810800000000000000
-      internalID: 1730731976012922385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slap_2
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 83
-        width: 28
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8707bbdd0f1fecd10800000000000000
-      internalID: 2147920089116799096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slap_3
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 115
-        width: 20
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4796e8fa72d250a0800000000000000
-      internalID: -6894216653947103410
+      spriteID: 73af81710d8c12f10800000000000000
+      internalID: 2243294885473483319
       vertices: []
       indices: 
       edges: []
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Slap_0: 3962135299906821353
-      Slap_1: 1730731976012922385
-      Slap_2: 2147920089116799096
-      Slap_3: -6894216653947103410
+      MURDERER_LoseBG_0: 2243294885473483319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
