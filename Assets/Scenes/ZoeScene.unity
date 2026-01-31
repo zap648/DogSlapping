@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 4799804795739909764, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
       propertyPath: slappedAnimal
       value: 
-      objectReference: {fileID: 3321196461952810476, guid: b73fb2a2792d6394fae7720cd89afecb, type: 3}
+      objectReference: {fileID: 3906841351703879510, guid: 81327d7336453434aa5c9a80991e58bd, type: 3}
     - target: {fileID: 7492085642879907752, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lighting
       objectReference: {fileID: 0}
+    - target: {fileID: 3254307792205238042, guid: 72289fdad34eb844b8349fa28bb2dba4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9032346295269781440, guid: 72289fdad34eb844b8349fa28bb2dba4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.59617
@@ -687,6 +691,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 712428582859802578, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
+      propertyPath: m_ClearFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 712428582859802578, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1641817871632505401, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -723,6 +735,10 @@ PrefabInstance:
       propertyPath: 'gameBackgrounds.Array.data[3]'
       value: 
       objectReference: {fileID: 777523506}
+    - target: {fileID: 6272046082401191864, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
+      propertyPath: m_CameraType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

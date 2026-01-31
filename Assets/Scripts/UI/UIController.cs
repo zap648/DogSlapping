@@ -41,10 +41,10 @@ public class UIController : MonoBehaviour
 
     void TriggerButton()
     {
-        if (Input.anyKeyDown && startCanvas.activeSelf)
+        if (Input.anyKeyDown) 
         {
-            StartGame();
             CameraShake();
+            if (startCanvas.activeSelf) StartGame();
         }
         //else if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
     }
@@ -82,7 +82,7 @@ public class UIController : MonoBehaviour
     {
         scoreText.text = score.ToString();
         scoreText.text = "x" + score.ToString();
-        Debug.Log(score);
+        //Debug.Log(score);
     }
 
     void ShowBackground()
@@ -99,7 +99,6 @@ public class UIController : MonoBehaviour
 
     void CameraShake()
     {
-        Camera.main.fieldOfView += 10;
         Debug.Log("shakek");
         //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z)
     }
