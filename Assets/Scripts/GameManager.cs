@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int highScore;
     [SerializeField] private int combo;
     [SerializeField] private float slapTimer = 2.0f;
+    [SerializeField] private float slapCooldown = 0.5f;
     private float slapTimerMax;
+    private float slapCooldownMax;
     [Header("Dog Management")]
     [SerializeField] private List<GameObject> dogs;
     private GameObject dog;
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
     {
         slapThingy.SetActive(false);
         slapTimerMax = slapTimer;
+        slapCooldownMax = slapCooldown;
         Cursor.visible = false;
     }
 
@@ -50,34 +53,44 @@ public class GameManager : MonoBehaviour
             dog.GetComponent<Dog>().slapTimer = slapTimer;
             dog.GetComponent<Dog>().timeMultiplier = slapTimerMax / slapTimer;
         }
-        else if (Input.anyKeyDown)
+        else if (Input.anyKeyDown && slapCooldown < 0.0f)
         {
             if (gameOver)
             {
+                slapTimer = slapTimerMax;
                 gameOver = false;
                 Destroy(dog);
                 return;
             }
             
             Slap();
+            slapCooldown = slapCooldownMax;
         }
         SpeedUp();
+
+        slapCooldown -= Time.deltaTime;
     }
 
     private void Slap()
     {
-        StartCoroutine(SlapThing(0.5f));
+        StartCoroutine(SlapThing(slapCooldownMax));
 
         if (!dog.GetComponent<Dog>().Slapped())
         {
+            combo = 0;
             return;
         }
+
+        slapSound.Play();
+
         if (!dog.GetComponent<Dog>().isLeaving)
         {
+            combo = 0;
             GameOver();
             return;
         }
 
+        combo++;
         Instantiate(mask);
         Instantiate(slappedAnimal);
 

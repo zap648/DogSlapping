@@ -8,6 +8,7 @@ public class Slap : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        gameObject.SetActive(false);
         animator = GetComponent<Animator>();
         animator.speed = speed; // Set animation speed to 2x
     }
