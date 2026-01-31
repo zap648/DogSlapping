@@ -10,11 +10,18 @@ public class UIController : MonoBehaviour
     public GameObject[] gameBackgrounds;
     int score;
 
+    public AudioClip mainMenuMusic;
+    public AudioClip gameMusic;
+    public AudioClip loseMusic;
+
+    private AudioSource audioSource;
+
     private int level = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -47,6 +54,8 @@ public class UIController : MonoBehaviour
         startCanvas.SetActive(false);
         gameCanvas.SetActive(true);
         level = 0;
+        audioSource.clip = gameMusic;
+        audioSource.Play();
     }
 
     public void LoseGame()
@@ -54,6 +63,8 @@ public class UIController : MonoBehaviour
         Debug.Log("You are murderer");
         loseCanvas.SetActive(true);
         gameCanvas.SetActive(false);
+        audioSource.clip = loseMusic;
+        audioSource.Play();
     }
 
     public void MainMenu()
@@ -61,6 +72,8 @@ public class UIController : MonoBehaviour
         startCanvas.SetActive(true);
         loseCanvas.SetActive(false);
         Debug.Log("main menu");
+        audioSource.clip = mainMenuMusic;
+        audioSource.Play();
 
     }
 
