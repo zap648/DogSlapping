@@ -80,6 +80,9 @@ public class GameManager : MonoBehaviour
             combo = 0;
             return;
         }
+
+        slapSound.Play();
+
         if (!dog.GetComponent<Dog>().isLeaving)
         {
             combo = 0;
