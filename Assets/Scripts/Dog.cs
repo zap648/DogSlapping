@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dog : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class Dog : MonoBehaviour
 
     public SpriteRenderer maskRenderer;
 
+    public GameObject mask;
+    public GameObject slappedAnimal;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,14 +30,14 @@ public class Dog : MonoBehaviour
         if (isSad)
         {
             // Set sad dog sprite or animation here
-            GetComponent<SpriteRenderer>().color = Color.blue; // Example: change color to blue for sad dog
+            //GetComponent<SpriteRenderer>().color = Color.blue; // Example: change color to blue for sad dog
             maskRenderer.sprite = SadMask;
 
         }
         else
         {
             // Set happy dog sprite or animation here
-            GetComponent<SpriteRenderer>().color = Color.yellow; // Example: change color to yellow for happy dog
+            //GetComponent<SpriteRenderer>().color = Color.yellow; // Example: change color to yellow for happy dog
             maskRenderer.sprite = HappyMask;
 
         }
@@ -108,6 +112,9 @@ public class Dog : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = null;
             maskRenderer.sprite = null;
+
+            Instantiate(mask);
+            Instantiate(slappedAnimal);
         }
 
         if (isSad)
