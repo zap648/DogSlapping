@@ -14,14 +14,13 @@ public class UIController : MonoBehaviour
     public AudioClip gameMusic;
     public AudioClip loseMusic;
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     private int level = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

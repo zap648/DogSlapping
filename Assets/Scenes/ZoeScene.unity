@@ -981,6 +981,10 @@ PrefabInstance:
     - target: {fileID: 4539922336283034730, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
       propertyPath: gameMusic
       value: 
+      objectReference: {fileID: 8300000, guid: b8c01fa940554704e91363e6340f1cdf, type: 3}
+    - target: {fileID: 4539922336283034730, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
+      propertyPath: loseMusic
+      value: 
       objectReference: {fileID: 8300000, guid: d309cce9d0894354681b060e0ad85125, type: 3}
     - target: {fileID: 4539922336283034730, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
       propertyPath: scoreText
@@ -1065,7 +1069,11 @@ PrefabInstance:
     - target: {fileID: 3367651671161747149, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: gameMusic
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: b8c01fa940554704e91363e6340f1cdf, type: 3}
+    - target: {fileID: 3367651671161747149, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
+      propertyPath: loseMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: d309cce9d0894354681b060e0ad85125, type: 3}
     - target: {fileID: 3367651671161747149, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: audioSource
       value: 
@@ -1073,7 +1081,7 @@ PrefabInstance:
     - target: {fileID: 3367651671161747149, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: mainMenuMusic
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: fcecc36aa2084b3458adfe7e5d6c6235, type: 3}
     - target: {fileID: 3884644698954742224, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: m_Name
       value: UI
