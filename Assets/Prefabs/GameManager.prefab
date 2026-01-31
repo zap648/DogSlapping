@@ -50,15 +50,23 @@ MonoBehaviour:
   combo: 0
   slapTimer: 1.5
   slapCooldown: 0.5
+  slapTimerMax: 0
   dogs:
+  - {fileID: 9207970702152947006, guid: 370138f72680fa448b8689c6aba8e4a9, type: 3}
   - {fileID: 7875544044749514276, guid: 93de42c6dc7f4a14fa1287ff91f0327c, type: 3}
+  - {fileID: 4171459931192760302, guid: c981fc0c26686bc429aec15c3442e0cc, type: 3}
+  - {fileID: 7410688991988364710, guid: 84daa7f5f477b9b4885c3dac54bb9da1, type: 3}
+  - {fileID: 98388147531176923, guid: 0394cc8d968feae43a53e5ece2ee93e8, type: 3}
+  - {fileID: 3869903996238014576, guid: 9c0cf17425df31e43b41307aeabdd6da, type: 3}
+  dog: {fileID: 0}
   slapThingy: {fileID: 0}
+  dagNiceThingy: {fileID: 0}
   comboThingy: {fileID: 0}
   startMenu: {fileID: 0}
   deathMenu: {fileID: 0}
   slapSound: {fileID: 4082649407327544719}
-  smallSlapSound: {fileID: 0}
-  comboSlapSound: {fileID: 0}
+  smallSlapSound: {fileID: 8300000, guid: 3cdee1cf333d5d24184ec595c8519e8c, type: 3}
+  comboSlapSound: {fileID: 8300000, guid: d6e34939608e0e748b7fa6a51dd94212, type: 3}
   gameOver: 0
   highPriAnimation: 0
 --- !u!82 &4082649407327544719
@@ -72,7 +80,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: a22cc140d27abc147831f83fc17f700c, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3cdee1cf333d5d24184ec595c8519e8c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

@@ -744,7 +744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -671, y: 365.06}
+  m_AnchoredPosition: {x: -681, y: 393.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6467965925324713487
@@ -775,7 +775,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: x341
+  m_text: X341
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6903ecf0c8e0eb54fb0f258952b0ec26, type: 2}
   m_sharedMaterial: {fileID: 1623345079229060971, guid: 6903ecf0c8e0eb54fb0f258952b0ec26, type: 2}
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.000051498413, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -855,6 +855,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7683491454210535132}
     m_Modifications:
+    - target: {fileID: 1312811697111931383, guid: 131149384eb49c1498ee3418ab2b3a86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312811697111931383, guid: 131149384eb49c1498ee3418ab2b3a86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 471
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383789396031763063, guid: 131149384eb49c1498ee3418ab2b3a86, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1639999727
+      objectReference: {fileID: 0}
     - target: {fileID: 1682000174134545618, guid: 131149384eb49c1498ee3418ab2b3a86, type: 3}
       propertyPath: m_Name
       value: GameMenu
@@ -1060,6 +1072,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4499545842947437388, guid: 73af1b3de5b763848a80ded3e4931a35, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 121829849
+      objectReference: {fileID: 0}
     - target: {fileID: 7575816642451322590, guid: 73af1b3de5b763848a80ded3e4931a35, type: 3}
       propertyPath: m_Name
       value: StartMenu
@@ -1195,6 +1211,10 @@ PrefabInstance:
       propertyPath: mainMenuMusic
       value: 
       objectReference: {fileID: 8300000, guid: fcecc36aa2084b3458adfe7e5d6c6235, type: 3}
+    - target: {fileID: 6352849508734811941, guid: 0befd9c6d1a6ac244a630c5dccab8346, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1639999727
+      objectReference: {fileID: 0}
     - target: {fileID: 8705446473208903511, guid: 0befd9c6d1a6ac244a630c5dccab8346, type: 3}
       propertyPath: m_Name
       value: DeathMenu
