@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 9aa40dce2ccda3041b8021d28f52db73
+guid: b278c67c006727042acc90fd268f4891
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4779009027206569090
-    second: Mask1Happy_0
+      213: 578860774391821608
+    second: MentallyDisturbedRat_0
+  - first:
+      213: 673557739985155806
+    second: MentallyDisturbedRat_1
+  - first:
+      213: -7727754910134460906
+    second: MentallyDisturbedRat_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,30 +102,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mask1Happy_0
+      name: MentallyDisturbedRat_0
       rect:
         serializedVersion: 2
-        x: 785
-        y: 406
-        width: 310
-        height: 409
+        x: 10
+        y: 0
+        width: 1667
+        height: 1066
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e73a7fa2c9c8dadb0800000000000000
-      internalID: -4779009027206569090
+      spriteID: 8253800bec6880800800000000000000
+      internalID: 578860774391821608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MentallyDisturbedRat_1
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 478
+        width: 110
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6b7832235f85900800000000000000
+      internalID: 673557739985155806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MentallyDisturbedRat_2
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 399
+        width: 102
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e97264adf71c490800000000000000
+      internalID: -7727754910134460906
       vertices: []
       indices: 
       edges: []
@@ -148,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mask1Happy_0: -4779009027206569090
+      MentallyDisturbedRat_0: 578860774391821608
+      MentallyDisturbedRat_1: 673557739985155806
+      MentallyDisturbedRat_2: -7727754910134460906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

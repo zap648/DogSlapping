@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 9aa40dce2ccda3041b8021d28f52db73
+guid: 8fa5817a122e15b49b22c12ed3774616
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4779009027206569090
-    second: Mask1Happy_0
+      213: 5928287668636831825
+    second: Happyrat_0
+  - first:
+      213: 8210108999153637217
+    second: Happyrat_1
+  - first:
+      213: -9032840731010225109
+    second: Happyrat_2
+  - first:
+      213: -7253198659699783855
+    second: Happyrat_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mask1Happy_0
+      name: Happyrat_0
       rect:
         serializedVersion: 2
-        x: 785
-        y: 406
-        width: 310
-        height: 409
+        x: 10
+        y: 0
+        width: 1641
+        height: 1019
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e73a7fa2c9c8dadb0800000000000000
-      internalID: -4779009027206569090
+      spriteID: 1505d67a932854250800000000000000
+      internalID: 5928287668636831825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Happyrat_1
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 341
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1675acdb2aa20f170800000000000000
+      internalID: 8210108999153637217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Happyrat_2
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 285
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ca4739637e4a280800000000000000
+      internalID: -9032840731010225109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Happyrat_3
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 278
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15741438f36775b90800000000000000
+      internalID: -7253198659699783855
       vertices: []
       indices: 
       edges: []
@@ -148,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mask1Happy_0: -4779009027206569090
+      Happyrat_0: 5928287668636831825
+      Happyrat_1: 8210108999153637217
+      Happyrat_2: -9032840731010225109
+      Happyrat_3: -7253198659699783855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
