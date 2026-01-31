@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
+using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,8 +27,7 @@ public class GameManager : MonoBehaviour
     [Header("Game State")]
     [SerializeField] private bool gameOver;
 
-    public GameObject mask;
-    public GameObject slappedAnimal;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -91,8 +92,7 @@ public class GameManager : MonoBehaviour
         }
 
         combo++;
-        Instantiate(mask);
-        Instantiate(slappedAnimal);
+        
 
         score++;
         if (score > highScore)
