@@ -121,11 +121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.442582
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.773711
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.z
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 3906841351703879510, guid: 81327d7336453434aa5c9a80991e58bd, type: 3}
     - target: {fileID: 6486127346452770155, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_Name
-      value: Mouse Variant 1
+      value: Rabbit Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

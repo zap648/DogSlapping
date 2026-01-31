@@ -121,11 +121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.46
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.0674233
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3602830777842932510, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_LocalPosition.z
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 2941595281874974056, guid: e82e226ac9ec90a40bb6a162f7ad2980, type: 3}
     - target: {fileID: 6486127346452770155, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_Name
-      value: Bunny Variant
+      value: Mouse Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
