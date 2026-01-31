@@ -89,7 +89,9 @@ public class Dog : MonoBehaviour
     public bool Slapped()
     {
         if (!slappable)
+        {
             return false;
+        }
 
         if (isSad)
         {

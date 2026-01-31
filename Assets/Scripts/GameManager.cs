@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int highScore;
     [SerializeField] private int combo;
     [SerializeField] private float slapTimer = 2.0f;
+    [SerializeField] private float slapCoolDown = 0.5f;
     private float slapTimerMax;
     [Header("Dog Management")]
     [SerializeField] private List<GameObject> dogs;
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
         {
             if (gameOver)
             {
+                slapTimer = slapTimerMax;
                 gameOver = false;
                 Destroy(dog);
                 return;
@@ -70,14 +72,17 @@ public class GameManager : MonoBehaviour
 
         if (!dog.GetComponent<Dog>().Slapped())
         {
+            combo = 0;
             return;
         }
         if (!dog.GetComponent<Dog>().isLeaving)
         {
+            combo = 0;
             GameOver();
             return;
         }
 
+        combo++;
         Instantiate(mask);
         Instantiate(slappedAnimal);
 
