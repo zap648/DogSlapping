@@ -208,6 +208,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689636700 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 955526664932925768, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
+  m_PrefabInstance: {fileID: 713922016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &713922016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -220,10 +231,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 277701070}
-    - target: {fileID: 2827352803327529037, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.6
-      objectReference: {fileID: 0}
     - target: {fileID: 3884644698954742224, guid: 8494af27f4ba2ff44b2f2b42b79b126d, type: 3}
       propertyPath: m_Name
       value: UI
@@ -388,6 +395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 4539922336283034730, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
+      propertyPath: comboText
+      value: 
+      objectReference: {fileID: 689636700}
     - target: {fileID: 4539922336283034730, guid: db1ccf317eeae7a47a46e9c951931185, type: 3}
       propertyPath: scoreText
       value: 

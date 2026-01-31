@@ -7,6 +7,7 @@ public class UIController : MonoBehaviour
     public GameObject loseCanvas;
     public GameObject gameCanvas;
     public TMP_Text scoreText;
+    public TMP_Text comboText;
     public GameObject[] gameBackgrounds;
     int score;
 
@@ -79,6 +80,7 @@ public class UIController : MonoBehaviour
     void UpdateScoreText()
     {
         scoreText.text = score.ToString();
+        scoreText.text = "x" + score.ToString();
         Debug.Log(score);
     }
 
