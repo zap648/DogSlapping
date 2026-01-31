@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
     [Header("Game State")]
     [SerializeField] private bool gameOver;
 
+    public GameObject mask;
+    public GameObject slappedAnimal;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -73,7 +76,10 @@ public class GameManager : MonoBehaviour
             GameOver();
             return;
         }
-        
+
+        Instantiate(mask);
+        Instantiate(slappedAnimal);
+
         score++;
         if (score > highScore)
             highScore = score;

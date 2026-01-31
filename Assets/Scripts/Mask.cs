@@ -4,12 +4,14 @@ public class Mask : MonoBehaviour
 {
     public Rigidbody2D rb;
 
+    public int slapDirection = 1; // 1 for right, -1 for left
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        rb.AddForce(-transform.right * 200f);
+        rb.AddForce(transform.right * 200f * slapDirection);
         rb.AddForce(transform.up * 150f);
 
         rb.angularVelocity += 500f;

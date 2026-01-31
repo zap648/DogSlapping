@@ -301,6 +301,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4799804795739909764, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
+      propertyPath: mask
+      value: 
+      objectReference: {fileID: 3321196461952810476, guid: b73fb2a2792d6394fae7720cd89afecb, type: 3}
+    - target: {fileID: 4799804795739909764, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
       propertyPath: deathMenu
       value: 
       objectReference: {fileID: 216548181}
@@ -308,6 +312,10 @@ PrefabInstance:
       propertyPath: startMenu
       value: 
       objectReference: {fileID: 14156830}
+    - target: {fileID: 4799804795739909764, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
+      propertyPath: slappedAnimal
+      value: 
+      objectReference: {fileID: 3321196461952810476, guid: b73fb2a2792d6394fae7720cd89afecb, type: 3}
     - target: {fileID: 7492085642879907752, guid: ee283e65b7a0e2f4691eaf3ec51861d0, type: 3}
       propertyPath: m_Name
       value: GameManager

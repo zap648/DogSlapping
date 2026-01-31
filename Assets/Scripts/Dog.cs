@@ -80,6 +80,10 @@ public class Dog : MonoBehaviour
         }
         transform.position = Vector2.Lerp(endPosition, startPosition, elapsedTime);
         elapsedTime += timeMultiplier * Time.deltaTime;
+
+        if (isSad) { GetComponent<SpriteRenderer>().sprite = null; }
+
+        
     }
 
     public bool Slapped()
