@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ec35e1d4a39f9dd48806872454291046
+guid: f54636c832b55b54fa42d2a94ee400f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3416574175412146573
-    second: Mask2Happy_0
+      213: -6936618020716086217
+    second: GGJNormalHorrorGoose_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mask2Happy_0
+      name: GGJNormalHorrorGoose_0
       rect:
         serializedVersion: 2
-        x: 753
-        y: 337
-        width: 349
-        height: 519
+        x: 801
+        y: 141
+        width: 786
+        height: 1387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d81d63a5c1c1a6f20800000000000000
-      internalID: 3416574175412146573
+      spriteID: 73cf4a479ae2cbf90800000000000000
+      internalID: -6936618020716086217
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mask2Happy_0: 3416574175412146573
+      GGJNormalHorrorGoose_0: -6936618020716086217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

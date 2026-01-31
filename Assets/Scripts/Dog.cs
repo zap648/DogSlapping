@@ -6,8 +6,10 @@ public class Dog : MonoBehaviour
     [SerializeField] private bool isEntering = true;
     public bool isLeaving = false;
     [SerializeField] private bool slappable = false;
+    public float slapTimer = 3.0f;
     private float elapsedTime;
     private float waitingTime;
+    public float timeMultiplier = 1.0f;
     private Vector2 startPosition;
     private Vector2 endPosition = Vector2.zero;
 
@@ -40,7 +42,7 @@ public class Dog : MonoBehaviour
         {
             // Optional: Add some visual indication that the dog can be slapped
             waitingTime += Time.deltaTime;
-            if (waitingTime >= 3.0f)
+            if (waitingTime >= slapTimer)
             {
                 isLeaving = true;
                 slappable = false;
@@ -62,7 +64,7 @@ public class Dog : MonoBehaviour
             return;
         }
         transform.position = Vector2.Lerp(startPosition, endPosition, elapsedTime);
-        elapsedTime += Time.deltaTime;
+        elapsedTime += timeMultiplier * Time.deltaTime;
     }
 
     private void MoveOut()
@@ -77,7 +79,11 @@ public class Dog : MonoBehaviour
             return;
         }
         transform.position = Vector2.Lerp(endPosition, startPosition, elapsedTime);
-        elapsedTime += Time.deltaTime;
+        elapsedTime += timeMultiplier * Time.deltaTime;
+
+        if (isSad) { GetComponent<SpriteRenderer>().sprite = null; }
+
+        
     }
 
     public bool Slapped()
