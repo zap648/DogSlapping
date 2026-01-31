@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Stats")]
     [SerializeField] public int score;
     [SerializeField] private int highScore;
-    [SerializeField] private int combo;
+    [SerializeField] public int combo;
     [SerializeField] private float slapTimer = 2.0f;
     [SerializeField] private float slapCooldown = 0.5f;
     private float slapTimerMax;
@@ -20,14 +20,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> dogs;
     private GameObject dog;
     [SerializeField] private GameObject slapThingy;
+    [SerializeField] private GameObject comboThingy;
     [Header("UI Elements")]
     [SerializeField] private GameObject startMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private AudioSource slapSound;
     [Header("Game State")]
     [SerializeField] private bool gameOver;
+    [SerializeField] private bool highPriAnimation;
 
-    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,6 +43,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (highPriAnimation) // If there's a high priority animation
+        {
+            return;
+        }
+
         if (startMenu.activeSelf || deathMenu.activeSelf) // If the menus are active, this will prevent the game from running
         {
             return;
@@ -56,16 +63,12 @@ public class GameManager : MonoBehaviour
         }
         else if (Input.anyKeyDown && slapCooldown < 0.0f)
         {
-            if (gameOver)
-            {
-                slapTimer = slapTimerMax;
-                gameOver = false;
-                Destroy(dog);
-                return;
-            }
-            
             Slap();
-            slapCooldown = slapCooldownMax;
+
+            if (combo % 20 == 0 && combo != 0)
+            {
+                ComboSlap();
+            }
         }
         SpeedUp();
 
@@ -74,6 +77,15 @@ public class GameManager : MonoBehaviour
 
     private void Slap()
     {
+
+        if (gameOver)
+        {
+            slapTimer = slapTimerMax;
+            gameOver = false;
+            Destroy(dog);
+            return;
+        }
+
         StartCoroutine(SlapThing(slapCooldownMax));
 
         if (!dog.GetComponent<Dog>().Slapped())
@@ -91,12 +103,18 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        combo++;
-        
-
         score++;
+        combo++;
         if (score > highScore)
             highScore = score;
+
+        slapCooldown = slapCooldownMax;
+    }
+
+    void ComboSlap()
+    {
+        Debug.Log("Combo Slap!");
+        StartCoroutine(ComboThing(1.0f));
     }
 
     private void GameOver()
@@ -117,9 +135,18 @@ public class GameManager : MonoBehaviour
 
     IEnumerator SlapThing(float time)
     {
-        slapThingy.transform.rotation = Quaternion.Euler(0, 0, Random.Range(-30f, 30f));
         slapThingy.SetActive(true);
         yield return new WaitForSeconds(time);
         slapThingy.SetActive(false);
+    }
+
+    IEnumerator ComboThing(float time)
+    {
+        Debug.Log("Super Slap!");
+        highPriAnimation = true;
+        comboThingy.SetActive(true);
+        yield return new WaitForSeconds(time);
+        comboThingy.SetActive(false);
+        highPriAnimation = false;
     }
 }

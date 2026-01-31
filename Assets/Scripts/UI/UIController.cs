@@ -10,6 +10,7 @@ public class UIController : MonoBehaviour
     public TMP_Text comboText;
     public GameObject[] gameBackgrounds;
     int score;
+    int combo;
 
     public AudioClip mainMenuMusic;
     public AudioClip gameMusic;
@@ -31,6 +32,7 @@ public class UIController : MonoBehaviour
         ShowBackground();
         if (gameCanvas.activeSelf) UpdateScoreText();
         score = GameObject.Find("GameManager").GetComponent<GameManager>().score;
+        combo = GameObject.Find("GameManager").GetComponent<GameManager>().combo;
 
         //Change the level after a certain score has been obtained.
         if (score == 10) level = 1;
@@ -81,7 +83,7 @@ public class UIController : MonoBehaviour
     void UpdateScoreText()
     {
         scoreText.text = score.ToString();
-        scoreText.text = "x" + score.ToString();
+        comboText.text = "x" + combo.ToString();
         //Debug.Log(score);
     }
 
