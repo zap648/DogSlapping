@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 62728f8c6da121648acffd39ff49ea1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1541829972259049622
+    second: ComboSlapFrame0038_0
+  - first:
+      213: 3446806648602075735
+    second: ComboSlapFrame0038_1
+  - first:
+      213: -2471622049700603749
+    second: ComboSlapFrame0038_2
+  - first:
+      213: 3564155086302903013
+    second: ComboSlapFrame0038_3
+  - first:
+      213: 3165408916305686905
+    second: ComboSlapFrame0038_4
+  - first:
+      213: -6035251336235408233
+    second: ComboSlapFrame0038_5
+  - first:
+      213: 2952085045411026864
+    second: ComboSlapFrame0038_6
+  - first:
+      213: 2775137961347196074
+    second: ComboSlapFrame0038_7
+  - first:
+      213: 3694003844019588769
+    second: ComboSlapFrame0038_8
+  - first:
+      213: -2209085576946732708
+    second: ComboSlapFrame0038_9
+  - first:
+      213: -2357698750235932299
+    second: ComboSlapFrame0038_10
+  - first:
+      213: 3631064611917920833
+    second: ComboSlapFrame0038_11
+  - first:
+      213: 3573644062390280753
+    second: ComboSlapFrame0038_12
+  - first:
+      213: -2837927565532391271
+    second: ComboSlapFrame0038_13
+  - first:
+      213: -5846750175583551140
+    second: ComboSlapFrame0038_14
+  - first:
+      213: -1493785703499181289
+    second: ComboSlapFrame0038_15
+  - first:
+      213: -2725198446785290988
+    second: ComboSlapFrame0038_16
+  - first:
+      213: 5081849655778120780
+    second: ComboSlapFrame0038_17
+  - first:
+      213: -3614064974885924735
+    second: ComboSlapFrame0038_18
+  - first:
+      213: -1838812380021737057
+    second: ComboSlapFrame0038_19
+  - first:
+      213: -7277352685313614684
+    second: ComboSlapFrame0038_20
+  - first:
+      213: 7251540557427448825
+    second: ComboSlapFrame0038_21
+  - first:
+      213: -2857025622433696560
+    second: ComboSlapFrame0038_22
+  - first:
+      213: -8019601526231784325
+    second: ComboSlapFrame0038_23
+  - first:
+      213: -8339527521933611069
+    second: ComboSlapFrame0038_24
+  - first:
+      213: -8595341844889254125
+    second: ComboSlapFrame0038_25
+  - first:
+      213: 7338744535795787110
+    second: ComboSlapFrame0038_26
+  - first:
+      213: 8764472095459546725
+    second: ComboSlapFrame0038_27
+  - first:
+      213: -7621093147678164339
+    second: ComboSlapFrame0038_28
+  - first:
+      213: 8100308812157587550
+    second: ComboSlapFrame0038_29
+  - first:
+      213: -4815001795958108968
+    second: ComboSlapFrame0038_30
+  - first:
+      213: 3017111885326764646
+    second: ComboSlapFrame0038_31
+  - first:
+      213: -953619792741323394
+    second: ComboSlapFrame0038_32
+  - first:
+      213: 6685724909576095982
+    second: ComboSlapFrame0038_33
+  - first:
+      213: -4503933268615886775
+    second: ComboSlapFrame0038_34
+  - first:
+      213: -2659487221515932544
+    second: ComboSlapFrame0038_35
+  - first:
+      213: -1661051194158692113
+    second: ComboSlapFrame0038_36
+  - first:
+      213: 2156676804042011641
+    second: ComboSlapFrame0038_37
+  - first:
+      213: 7862318616673245292
+    second: ComboSlapFrame0038_38
+  - first:
+      213: 7352812602118365967
+    second: ComboSlapFrame0038_39
+  - first:
+      213: 8971383660535331248
+    second: ComboSlapFrame0038_40
+  - first:
+      213: -7883972633091273561
+    second: ComboSlapFrame0038_41
+  - first:
+      213: 310299522253028095
+    second: ComboSlapFrame0038_42
+  - first:
+      213: 187614205527239587
+    second: ComboSlapFrame0038_43
+  - first:
+      213: 660539800377564620
+    second: ComboSlapFrame0038_44
+  - first:
+      213: -3454137974510045231
+    second: ComboSlapFrame0038_45
+  - first:
+      213: 8536158601610250350
+    second: ComboSlapFrame0038_46
+  - first:
+      213: 6249932013507819816
+    second: ComboSlapFrame0038_47
+  - first:
+      213: 909317153090814358
+    second: ComboSlapFrame0038_48
+  - first:
+      213: -989780653909676588
+    second: ComboSlapFrame0038_49
+  - first:
+      213: -3490857364318287895
+    second: ComboSlapFrame0038_50
+  - first:
+      213: -4826600223770981661
+    second: ComboSlapFrame0038_51
+  - first:
+      213: -8797501484779655750
+    second: ComboSlapFrame0038_52
+  - first:
+      213: 8455106771022098201
+    second: ComboSlapFrame0038_53
+  - first:
+      213: 34896077508971352
+    second: ComboSlapFrame0038_54
+  - first:
+      213: 6020995456999938471
+    second: ComboSlapFrame0038_55
+  - first:
+      213: -8730973336376613469
+    second: ComboSlapFrame0038_56
+  - first:
+      213: -6493016429580044762
+    second: ComboSlapFrame0038_57
+  - first:
+      213: -3238243221689733632
+    second: ComboSlapFrame0038_58
+  - first:
+      213: -7293997216156585948
+    second: ComboSlapFrame0038_59
+  - first:
+      213: -9054115145719778332
+    second: ComboSlapFrame0038_60
+  - first:
+      213: -7214408414270765939
+    second: ComboSlapFrame0038_61
+  - first:
+      213: -1070527910695884513
+    second: ComboSlapFrame0038_62
+  - first:
+      213: -6498585477077865130
+    second: ComboSlapFrame0038_63
+  - first:
+      213: -4138488165083892097
+    second: ComboSlapFrame0038_64
+  - first:
+      213: -8818491762993765060
+    second: ComboSlapFrame0038_65
+  - first:
+      213: 5157908760654260438
+    second: ComboSlapFrame0038_66
+  - first:
+      213: 420010373778261866
+    second: ComboSlapFrame0038_67
+  - first:
+      213: -1549442149821656717
+    second: ComboSlapFrame0038_68
+  - first:
+      213: 5845182430854872524
+    second: ComboSlapFrame0038_69
+  - first:
+      213: 4595923075966167887
+    second: ComboSlapFrame0038_70
+  - first:
+      213: 8283281896877341469
+    second: ComboSlapFrame0038_71
+  - first:
+      213: 2910864610179465031
+    second: ComboSlapFrame0038_72
+  - first:
+      213: -7763099984969654393
+    second: ComboSlapFrame0038_73
+  - first:
+      213: 4460103766408167328
+    second: ComboSlapFrame0038_74
+  - first:
+      213: -5427413154122245647
+    second: ComboSlapFrame0038_75
+  - first:
+      213: -5313285626924654909
+    second: ComboSlapFrame0038_76
+  - first:
+      213: -8783770392233326271
+    second: ComboSlapFrame0038_77
+  - first:
+      213: -7242582402464379574
+    second: ComboSlapFrame0038_78
+  - first:
+      213: -4017832521432359429
+    second: ComboSlapFrame0038_79
+  - first:
+      213: -7877197831594333467
+    second: ComboSlapFrame0038_80
+  - first:
+      213: 7670334800953366120
+    second: ComboSlapFrame0038_81
+  - first:
+      213: -809865187569934040
+    second: ComboSlapFrame0038_82
+  - first:
+      213: -1759470213177779341
+    second: ComboSlapFrame0038_83
+  - first:
+      213: -2743178409703727463
+    second: ComboSlapFrame0038_84
+  - first:
+      213: -2334979151408467977
+    second: ComboSlapFrame0038_85
+  - first:
+      213: -2045666269223456804
+    second: ComboSlapFrame0038_86
+  - first:
+      213: -4287607642128060451
+    second: ComboSlapFrame0038_87
+  - first:
+      213: -215974485031308143
+    second: ComboSlapFrame0038_88
+  - first:
+      213: 4715599660285345032
+    second: ComboSlapFrame0038_89
+  - first:
+      213: -3738326574906879868
+    second: ComboSlapFrame0038_90
+  - first:
+      213: 5508490403687441196
+    second: ComboSlapFrame0038_91
+  - first:
+      213: -3042615139448178884
+    second: ComboSlapFrame0038_92
+  - first:
+      213: -8975717836655459483
+    second: ComboSlapFrame0038_93
+  - first:
+      213: 9101978548840438166
+    second: ComboSlapFrame0038_94
+  - first:
+      213: 6475488161451605002
+    second: ComboSlapFrame0038_95
+  - first:
+      213: -6832188179217239549
+    second: ComboSlapFrame0038_96
+  - first:
+      213: -6813962807232020618
+    second: ComboSlapFrame0038_97
+  - first:
+      213: 8900802848596397914
+    second: ComboSlapFrame0038_98
+  - first:
+      213: -7446886183406116532
+    second: ComboSlapFrame0038_99
+  - first:
+      213: -657904988684884320
+    second: ComboSlapFrame0038_100
+  - first:
+      213: 3848403356451078235
+    second: ComboSlapFrame0038_101
+  - first:
+      213: -5905717071970381714
+    second: ComboSlapFrame0038_102
+  - first:
+      213: -6952097165589242089
+    second: ComboSlapFrame0038_103
+  - first:
+      213: 4459969590748667884
+    second: ComboSlapFrame0038_104
+  - first:
+      213: -26888333402302667
+    second: ComboSlapFrame0038_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1013
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6901d88d03ea56510800000000000000
+      internalID: 1541829972259049622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_1
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1037
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752a16b826485df20800000000000000
+      internalID: 3446806648602075735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_2
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1028
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98929c47d803bdd0800000000000000
+      internalID: -2471622049700603749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_3
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1030
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea7c73da2c667130800000000000000
+      internalID: 3564155086302903013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_4
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1025
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971314963aacdeb20800000000000000
+      internalID: 3165408916305686905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_5
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 883
+        width: 141
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794ac75c2ea7e3ca0800000000000000
+      internalID: -6035251336235408233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_6
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 993
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7977e35b9e7f820800000000000000
+      internalID: 2952085045411026864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1001
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa42dc4c545438620800000000000000
+      internalID: 2775137961347196074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_8
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 982
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae07b9acecb34330800000000000000
+      internalID: 3694003844019588769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_9
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 963
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51b6ab3f50c751e0800000000000000
+      internalID: -2209085576946732708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_10
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 964
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5790ec07a75c74fd0800000000000000
+      internalID: -2357698750235932299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_11
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 936
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14afbddb602246230800000000000000
+      internalID: 3631064611917920833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_12
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 924
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132e47c3752289130800000000000000
+      internalID: 3573644062390280753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_13
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 921
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99817264ae7ad98d0800000000000000
+      internalID: -2837927565532391271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_14
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 909
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51c3e551bb2cdea0800000000000000
+      internalID: -5846750175583551140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_15
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 920
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713df5c21d1054be0800000000000000
+      internalID: -1493785703499181289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_16
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 891
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d9aec83762e2ad0800000000000000
+      internalID: -2725198446785290988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_17
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 903
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44989e465b568640800000000000000
+      internalID: 5081849655778120780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_18
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 890
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1805eb0bd0348ddc0800000000000000
+      internalID: -3614064974885924735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_19
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 869
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99b63002e93b76e0800000000000000
+      internalID: -1838812380021737057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_20
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 876
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac95ae2a46a10b90800000000000000
+      internalID: -7277352685313614684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_21
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 857
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb1dc777b5a2a460800000000000000
+      internalID: 7251540557427448825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 855
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d476a4655ec958d0800000000000000
+      internalID: -2857025622433696560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_23
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 846
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7426ccc6e6a4b090800000000000000
+      internalID: -8019601526231784325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_24
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 838
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfad8c47eb044c80800000000000000
+      internalID: -8339527521933611069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_25
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 837
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3174354d12637b880800000000000000
+      internalID: -8595341844889254125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_26
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 846
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6656271e54578d560800000000000000
+      internalID: 7338744535795787110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_27
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 823
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56690b54fe8a1a970800000000000000
+      internalID: 8764472095459546725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_28
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 826
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aba7419207c3690800000000000000
+      internalID: -7621093147678164339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_29
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 806
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e509e9782f31a6070800000000000000
+      internalID: 8100308812157587550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_30
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 803
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc8c07a06dad2db0800000000000000
+      internalID: -4815001795958108968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_31
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 804
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ac28c364feed920800000000000000
+      internalID: 3017111885326764646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_32
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 804
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d2fdad9df04c2f0800000000000000
+      internalID: -953619792741323394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_33
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 773
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8834df16778cc50800000000000000
+      internalID: 6685724909576095982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_34
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 776
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94806181e80de71c0800000000000000
+      internalID: -4503933268615886775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_35
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 774
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c2adc667a971bd0800000000000000
+      internalID: -2659487221515932544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_36
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 765
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8ce625db2c2f8e0800000000000000
+      internalID: -1661051194158692113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_37
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 641
+        width: 145
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3bf30702e0eed10800000000000000
+      internalID: 2156676804042011641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_38
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 777
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68dfb120219c1d60800000000000000
+      internalID: 7862318616673245292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_39
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 774
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03e741da107a0660800000000000000
+      internalID: 7352812602118365967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_40
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 768
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9b3f528e1c08c70800000000000000
+      internalID: 8971383660535331248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_41
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 777
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac81b949a0869290800000000000000
+      internalID: -7883972633091273561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_42
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 760
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa7ddd75c76e4400800000000000000
+      internalID: 310299522253028095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_43
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 739
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aba44b302a8a9200800000000000000
+      internalID: 187614205527239587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_44
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 735
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd1381e275ba2900800000000000000
+      internalID: 660539800377564620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_45
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 740
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7342020df6010d0800000000000000
+      internalID: -3454137974510045231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_46
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 723
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68cf5b8507867670800000000000000
+      internalID: 8536158601610250350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_47
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 727
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829b97f7d083cb650800000000000000
+      internalID: 6249932013507819816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_48
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 704
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691c52a022b8e9c00800000000000000
+      internalID: 909317153090814358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_49
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 696
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dde8264db79342f0800000000000000
+      internalID: -989780653909676588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_50
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 659
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e78046f8bbfd8fc0800000000000000
+      internalID: -3490857364318287895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_51
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 662
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea4f4d3ba8740db0800000000000000
+      internalID: -4826600223770981661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_52
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 650
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdacb0c20ff8e580800000000000000
+      internalID: -8797501484779655750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_53
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 643
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa5c8afc2965570800000000000000
+      internalID: 8455106771022098201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_54
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 609
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b0aff2cc9fb7000800000000000000
+      internalID: 34896077508971352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_55
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 622
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9d8b0b77fde8350800000000000000
+      internalID: 6020995456999938471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_56
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 626
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a56ddd520a55d680800000000000000
+      internalID: -8730973336376613469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_57
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 597
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6263b1275fb24e5a0800000000000000
+      internalID: -6493016429580044762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_58
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 596
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eedd262f27f03d0800000000000000
+      internalID: -3238243221689733632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_59
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 590
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4207c4a5d2486ca90800000000000000
+      internalID: -7293997216156585948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_60
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 604
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e373e7ee32595280800000000000000
+      internalID: -9054115145719778332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_61
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 600
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844dc255c541eb90800000000000000
+      internalID: -7214408414270765939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_62
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 587
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19a4d08988b421f0800000000000000
+      internalID: -1070527910695884513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_63
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 571
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de24880f260d5a0800000000000000
+      internalID: -6498585477077865130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_64
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 559
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f763405c0f22196c0800000000000000
+      internalID: -4138488165083892097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_65
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 433
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c356c04c67c6e9580800000000000000
+      internalID: -8818491762993765060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_66
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 419
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d82ca6a0b2949740800000000000000
+      internalID: 5157908760654260438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_67
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 430
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67480ba53d24d500800000000000000
+      internalID: 420010373778261866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_68
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 420
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371dcd3f2964f7ae0800000000000000
+      internalID: -1549442149821656717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_69
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 416
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd7576a3724e1150800000000000000
+      internalID: 5845182430854872524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_70
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 401
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bebf5ffaff7cf30800000000000000
+      internalID: 4595923075966167887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_71
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 399
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b3ccd9ff024f270800000000000000
+      internalID: 8283281896877341469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_72
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 385
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fb007c0f7756820800000000000000
+      internalID: 2910864610179465031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_73
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 252
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f1b00c1bde34490800000000000000
+      internalID: -7763099984969654393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_74
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 387
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aff322beb875ed30800000000000000
+      internalID: 4460103766408167328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_75
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 381
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d243fd74fda4b0800000000000000
+      internalID: -5427413154122245647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_76
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 378
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce97f09fda6346b0800000000000000
+      internalID: -5313285626924654909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_77
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 354
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149c65edd57c91680800000000000000
+      internalID: -8783770392233326271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_78
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 355
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8d948dad2d7b90800000000000000
+      internalID: -7242582402464379574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_79
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 355
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd1301fb9acd38c0800000000000000
+      internalID: -4017832521432359429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_80
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 365
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaa75eae429ea290800000000000000
+      internalID: -7877197831594333467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_81
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 327
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866542fbcd0827a60800000000000000
+      internalID: 7670334800953366120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_82
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 336
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82160fa17e7c2c4f0800000000000000
+      internalID: -809865187569934040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_83
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 338
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b58a6c92b1597e0800000000000000
+      internalID: -1759470213177779341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_84
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 319
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e961635c54ee9d0800000000000000
+      internalID: -2743178409703727463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_85
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 318
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffea5245dc789fd0800000000000000
+      internalID: -2334979151408467977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_86
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 301
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfefe5dd555c93e0800000000000000
+      internalID: -2045666269223456804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_87
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 296
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfe4b2f09b5f74c0800000000000000
+      internalID: -4287607642128060451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_88
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 303
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1943923a954b00df0800000000000000
+      internalID: -215974485031308143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_89
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 264
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80db24e18ec217140800000000000000
+      internalID: 4715599660285345032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_90
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d54069cbce1cc0800000000000000
+      internalID: -3738326574906879868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_91
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 281
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23207046d6127c40800000000000000
+      internalID: 5508490403687441196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_92
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 271
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3737f0b6a576c5d0800000000000000
+      internalID: -3042615139448178884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_93
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 243
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5638306de28df6380800000000000000
+      internalID: -8975717836655459483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_94
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 242
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6991cdc0449b05e70800000000000000
+      internalID: 9101978548840438166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_95
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cf19a9c2e8dd950800000000000000
+      internalID: 6475488161451605002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_96
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 250
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302322bac013f21a0800000000000000
+      internalID: -6832188179217239549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_97
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 241
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f3632cde0ff61a0800000000000000
+      internalID: -6813962807232020618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_98
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 243
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f8f564801068b70800000000000000
+      internalID: 8900802848596397914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_99
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 224
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c416053b87857a890800000000000000
+      internalID: -7446886183406116532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_100
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 231
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6ea7506e6aed6f0800000000000000
+      internalID: -657904988684884320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_101
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 220
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5000b58676486530800000000000000
+      internalID: 3848403356451078235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_102
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 223
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60de35ec9daa0ea0800000000000000
+      internalID: -5905717071970381714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_103
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 209
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f9d013670358f90800000000000000
+      internalID: -6952097165589242089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_104
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 204
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef5e9d76bef4ed30800000000000000
+      internalID: 4459969590748667884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ComboSlapFrame0038_105
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 196
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53714f6043970aff0800000000000000
+      internalID: -26888333402302667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ComboSlapFrame0038_0: 1541829972259049622
+      ComboSlapFrame0038_1: 3446806648602075735
+      ComboSlapFrame0038_10: -2357698750235932299
+      ComboSlapFrame0038_100: -657904988684884320
+      ComboSlapFrame0038_101: 3848403356451078235
+      ComboSlapFrame0038_102: -5905717071970381714
+      ComboSlapFrame0038_103: -6952097165589242089
+      ComboSlapFrame0038_104: 4459969590748667884
+      ComboSlapFrame0038_105: -26888333402302667
+      ComboSlapFrame0038_11: 3631064611917920833
+      ComboSlapFrame0038_12: 3573644062390280753
+      ComboSlapFrame0038_13: -2837927565532391271
+      ComboSlapFrame0038_14: -5846750175583551140
+      ComboSlapFrame0038_15: -1493785703499181289
+      ComboSlapFrame0038_16: -2725198446785290988
+      ComboSlapFrame0038_17: 5081849655778120780
+      ComboSlapFrame0038_18: -3614064974885924735
+      ComboSlapFrame0038_19: -1838812380021737057
+      ComboSlapFrame0038_2: -2471622049700603749
+      ComboSlapFrame0038_20: -7277352685313614684
+      ComboSlapFrame0038_21: 7251540557427448825
+      ComboSlapFrame0038_22: -2857025622433696560
+      ComboSlapFrame0038_23: -8019601526231784325
+      ComboSlapFrame0038_24: -8339527521933611069
+      ComboSlapFrame0038_25: -8595341844889254125
+      ComboSlapFrame0038_26: 7338744535795787110
+      ComboSlapFrame0038_27: 8764472095459546725
+      ComboSlapFrame0038_28: -7621093147678164339
+      ComboSlapFrame0038_29: 8100308812157587550
+      ComboSlapFrame0038_3: 3564155086302903013
+      ComboSlapFrame0038_30: -4815001795958108968
+      ComboSlapFrame0038_31: 3017111885326764646
+      ComboSlapFrame0038_32: -953619792741323394
+      ComboSlapFrame0038_33: 6685724909576095982
+      ComboSlapFrame0038_34: -4503933268615886775
+      ComboSlapFrame0038_35: -2659487221515932544
+      ComboSlapFrame0038_36: -1661051194158692113
+      ComboSlapFrame0038_37: 2156676804042011641
+      ComboSlapFrame0038_38: 7862318616673245292
+      ComboSlapFrame0038_39: 7352812602118365967
+      ComboSlapFrame0038_4: 3165408916305686905
+      ComboSlapFrame0038_40: 8971383660535331248
+      ComboSlapFrame0038_41: -7883972633091273561
+      ComboSlapFrame0038_42: 310299522253028095
+      ComboSlapFrame0038_43: 187614205527239587
+      ComboSlapFrame0038_44: 660539800377564620
+      ComboSlapFrame0038_45: -3454137974510045231
+      ComboSlapFrame0038_46: 8536158601610250350
+      ComboSlapFrame0038_47: 6249932013507819816
+      ComboSlapFrame0038_48: 909317153090814358
+      ComboSlapFrame0038_49: -989780653909676588
+      ComboSlapFrame0038_5: -6035251336235408233
+      ComboSlapFrame0038_50: -3490857364318287895
+      ComboSlapFrame0038_51: -4826600223770981661
+      ComboSlapFrame0038_52: -8797501484779655750
+      ComboSlapFrame0038_53: 8455106771022098201
+      ComboSlapFrame0038_54: 34896077508971352
+      ComboSlapFrame0038_55: 6020995456999938471
+      ComboSlapFrame0038_56: -8730973336376613469
+      ComboSlapFrame0038_57: -6493016429580044762
+      ComboSlapFrame0038_58: -3238243221689733632
+      ComboSlapFrame0038_59: -7293997216156585948
+      ComboSlapFrame0038_6: 2952085045411026864
+      ComboSlapFrame0038_60: -9054115145719778332
+      ComboSlapFrame0038_61: -7214408414270765939
+      ComboSlapFrame0038_62: -1070527910695884513
+      ComboSlapFrame0038_63: -6498585477077865130
+      ComboSlapFrame0038_64: -4138488165083892097
+      ComboSlapFrame0038_65: -8818491762993765060
+      ComboSlapFrame0038_66: 5157908760654260438
+      ComboSlapFrame0038_67: 420010373778261866
+      ComboSlapFrame0038_68: -1549442149821656717
+      ComboSlapFrame0038_69: 5845182430854872524
+      ComboSlapFrame0038_7: 2775137961347196074
+      ComboSlapFrame0038_70: 4595923075966167887
+      ComboSlapFrame0038_71: 8283281896877341469
+      ComboSlapFrame0038_72: 2910864610179465031
+      ComboSlapFrame0038_73: -7763099984969654393
+      ComboSlapFrame0038_74: 4460103766408167328
+      ComboSlapFrame0038_75: -5427413154122245647
+      ComboSlapFrame0038_76: -5313285626924654909
+      ComboSlapFrame0038_77: -8783770392233326271
+      ComboSlapFrame0038_78: -7242582402464379574
+      ComboSlapFrame0038_79: -4017832521432359429
+      ComboSlapFrame0038_8: 3694003844019588769
+      ComboSlapFrame0038_80: -7877197831594333467
+      ComboSlapFrame0038_81: 7670334800953366120
+      ComboSlapFrame0038_82: -809865187569934040
+      ComboSlapFrame0038_83: -1759470213177779341
+      ComboSlapFrame0038_84: -2743178409703727463
+      ComboSlapFrame0038_85: -2334979151408467977
+      ComboSlapFrame0038_86: -2045666269223456804
+      ComboSlapFrame0038_87: -4287607642128060451
+      ComboSlapFrame0038_88: -215974485031308143
+      ComboSlapFrame0038_89: 4715599660285345032
+      ComboSlapFrame0038_9: -2209085576946732708
+      ComboSlapFrame0038_90: -3738326574906879868
+      ComboSlapFrame0038_91: 5508490403687441196
+      ComboSlapFrame0038_92: -3042615139448178884
+      ComboSlapFrame0038_93: -8975717836655459483
+      ComboSlapFrame0038_94: 9101978548840438166
+      ComboSlapFrame0038_95: 6475488161451605002
+      ComboSlapFrame0038_96: -6832188179217239549
+      ComboSlapFrame0038_97: -6813962807232020618
+      ComboSlapFrame0038_98: 8900802848596397914
+      ComboSlapFrame0038_99: -7446886183406116532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

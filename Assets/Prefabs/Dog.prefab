@@ -49,6 +49,13 @@ MonoBehaviour:
   isEntering: 1
   isLeaving: 0
   slappable: 0
+  slapTimer: 3
+  timeMultiplier: 1
+  SadMask: {fileID: 21300000, guid: 66f502a7f304bf043839e8f88f080782, type: 3}
+  HappyMask: {fileID: 21300000, guid: 9aa40dce2ccda3041b8021d28f52db73, type: 3}
+  maskRenderer: {fileID: 918835625479590479}
+  mask: {fileID: 3321196461952810476, guid: b73fb2a2792d6394fae7720cd89afecb, type: 3}
+  slappedAnimal: {fileID: 9207970702152947006, guid: 370138f72680fa448b8689c6aba8e4a9, type: 3}
 --- !u!212 &918835625479590479
 SpriteRenderer:
   serializedVersion: 2

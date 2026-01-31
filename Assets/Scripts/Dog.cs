@@ -6,10 +6,8 @@ public class Dog : MonoBehaviour
     [SerializeField] private bool isSad;
     [SerializeField] private bool isEntering = true;
     public bool isLeaving = false;
-    [SerializeField] private bool slappable = false;
-    public float slapTimer = 3.0f;
+    [SerializeField] private bool slappable = true;
     private float elapsedTime;
-    private float waitingTime;
     public float timeMultiplier = 1.0f;
     private Vector2 startPosition;
     private Vector2 endPosition = Vector2.zero;
@@ -22,9 +20,12 @@ public class Dog : MonoBehaviour
     public GameObject mask;
     public GameObject slappedAnimal;
 
+    private GameManager gameManager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         startPosition = transform.position;
         isSad = Random.value < 0.7f;
         if (isSad)
@@ -46,6 +47,9 @@ public class Dog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameManager.highPriAnimation)
+            return;
+
         if (isEntering)
             MoveIn();
         else if (isLeaving)
@@ -53,14 +57,7 @@ public class Dog : MonoBehaviour
 
         if (slappable)
         {
-            // Optional: Add some visual indication that the dog can be slapped
-            waitingTime += Time.deltaTime;
-            if (waitingTime >= slapTimer)
-            {
-                isLeaving = true;
-                slappable = false;
-                waitingTime = 0.0f;
-            }
+            isLeaving = true;
         }
     }
 
@@ -92,13 +89,7 @@ public class Dog : MonoBehaviour
             return;
         }
         transform.position = Vector2.Lerp(endPosition, startPosition, elapsedTime);
-        elapsedTime += timeMultiplier * Time.deltaTime;
-
-        if (isSad) { GetComponent<SpriteRenderer>().sprite = null;
-            maskRenderer.sprite = null;
-        }
-
-        
+        elapsedTime += timeMultiplier * Time.deltaTime;        
     }
 
     public bool Slapped()

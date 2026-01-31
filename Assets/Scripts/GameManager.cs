@@ -25,15 +25,18 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject startMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private AudioSource slapSound;
+    [SerializeField] public AudioClip smallSlapSound;
+    [SerializeField] public AudioClip comboSlapSound;
     [Header("Game State")]
     [SerializeField] private bool gameOver;
-    [SerializeField] private bool highPriAnimation;
+    [SerializeField] public bool highPriAnimation;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        slapSound.clip = smallSlapSound;
         slapThingy.SetActive(false);
         slapTimerMax = slapTimer;
         slapCooldownMax = slapCooldown;
@@ -58,16 +61,21 @@ public class GameManager : MonoBehaviour
             int index = Random.Range(0, dogs.Count);
             dog = Instantiate(dogs[index], new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), Quaternion.identity);
             dog.transform.position = dog.transform.position.normalized * 15;
-            dog.GetComponent<Dog>().slapTimer = slapTimer;
             dog.GetComponent<Dog>().timeMultiplier = slapTimerMax / slapTimer;
         }
         else if (Input.anyKeyDown && slapCooldown < 0.0f)
         {
-            Slap();
-
-            if (combo % 20 == 0 && combo != 0)
+            if (combo % 20 == 19 && combo != 0)
             {
+                slapSound.clip = comboSlapSound;
+                slapSound.Play();
                 ComboSlap();
+
+            }
+            else
+            {
+                slapSound.Play();
+                Slap();
             }
         }
         SpeedUp();
@@ -75,7 +83,7 @@ public class GameManager : MonoBehaviour
         slapCooldown -= Time.deltaTime;
     }
 
-    private void Slap()
+    public void Slap()
     {
 
         if (gameOver)
@@ -93,8 +101,6 @@ public class GameManager : MonoBehaviour
             combo = 0;
             return;
         }
-
-        slapSound.Play();
 
         if (!dog.GetComponent<Dog>().isLeaving)
         {
@@ -114,7 +120,7 @@ public class GameManager : MonoBehaviour
     void ComboSlap()
     {
         Debug.Log("Combo Slap!");
-        StartCoroutine(ComboThing(1.0f));
+        StartCoroutine(ComboThing(2.0f));
     }
 
     private void GameOver()
@@ -146,6 +152,7 @@ public class GameManager : MonoBehaviour
         highPriAnimation = true;
         comboThingy.SetActive(true);
         yield return new WaitForSeconds(time);
+        slapSound.clip = smallSlapSound;
         comboThingy.SetActive(false);
         highPriAnimation = false;
     }

@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 63decb6976decfe4fa710ab38bdd4b4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4848633961422428202
+    second: ComboSlapFrame0031_0
+  - first:
+      213: -3265121061267148978
+    second: ComboSlapFrame0031_1
+  - first:
+      213: 7197014976163747715
+    second: ComboSlapFrame0031_2
+  - first:
+      213: -3125507480113175424
+    second: ComboSlapFrame0031_3
+  - first:
+      213: 4446400706002920327
+    second: ComboSlapFrame0031_4
+  - first:
+      213: -5867254700834525715
+    second: ComboSlapFrame0031_5
+  - first:
+      213: -1624530052815512634
+    second: ComboSlapFrame0031_6
+  - first:
+      213: 5082535596217107562
+    second: ComboSlapFrame0031_7
+  - first:
+      213: -3947435768626074042
+    second: ComboSlapFrame0031_8
+  - first:
+      213: -3819836229835636050
+    second: ComboSlapFrame0031_9
+  - first:
+      213: -5881128110459361117
+    second: ComboSlapFrame0031_10
+  - first:
+      213: 1782239134886697846
+    second: ComboSlapFrame0031_11
+  - first:
+      213: -2257280401896994279
+    second: ComboSlapFrame0031_12
+  - first:
+      213: 1807629445646450526
+    second: ComboSlapFrame0031_13
+  - first:
+      213: -3687326365671270643
+    second: ComboSlapFrame0031_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ComboSlapFrame0031_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1429
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a289a7416eec94340800000000000000
+      internalID: 4848633961422428202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f0e0951f30aa11e4cbb8a312dfcf6cec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ComboSlapFrame0031_0: 4848633961422428202
+      ComboSlapFrame0031_1: -3265121061267148978
+      ComboSlapFrame0031_10: -5881128110459361117
+      ComboSlapFrame0031_11: 1782239134886697846
+      ComboSlapFrame0031_12: -2257280401896994279
+      ComboSlapFrame0031_13: 1807629445646450526
+      ComboSlapFrame0031_14: -3687326365671270643
+      ComboSlapFrame0031_2: 7197014976163747715
+      ComboSlapFrame0031_3: -3125507480113175424
+      ComboSlapFrame0031_4: 4446400706002920327
+      ComboSlapFrame0031_5: -5867254700834525715
+      ComboSlapFrame0031_6: -1624530052815512634
+      ComboSlapFrame0031_7: 5082535596217107562
+      ComboSlapFrame0031_8: -3947435768626074042
+      ComboSlapFrame0031_9: -3819836229835636050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

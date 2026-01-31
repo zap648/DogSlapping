@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 157da7815a86b9b4a93d987e0737984e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3398309524501641207
+    second: ComboSlapFrame0034_0
+  - first:
+      213: -9011028808323888238
+    second: ComboSlapFrame0034_1
+  - first:
+      213: -7268017903796864971
+    second: ComboSlapFrame0034_2
+  - first:
+      213: -6210302047134209146
+    second: ComboSlapFrame0034_3
+  - first:
+      213: 2963347786236748860
+    second: ComboSlapFrame0034_4
+  - first:
+      213: -7751466595412953154
+    second: ComboSlapFrame0034_5
+  - first:
+      213: -6872410749907131603
+    second: ComboSlapFrame0034_6
+  - first:
+      213: 5743522780240469254
+    second: ComboSlapFrame0034_7
+  - first:
+      213: -4295312247560748599
+    second: ComboSlapFrame0034_8
+  - first:
+      213: 2708274142982163914
+    second: ComboSlapFrame0034_9
+  - first:
+      213: -6155539718400158708
+    second: ComboSlapFrame0034_10
+  - first:
+      213: -7840163034722523919
+    second: ComboSlapFrame0034_11
+  - first:
+      213: 4959337836451873268
+    second: ComboSlapFrame0034_12
+  - first:
+      213: -6636710614779477813
+    second: ComboSlapFrame0034_13
+  - first:
+      213: -5112086686994282027
+    second: ComboSlapFrame0034_14
+  - first:
+      213: 3026360706775802950
+    second: ComboSlapFrame0034_15
+  - first:
+      213: -7856270735560604764
+    second: ComboSlapFrame0034_16
+  - first:
+      213: -4854823841511867005
+    second: ComboSlapFrame0034_17
+  - first:
+      213: 7407070166756422205
+    second: ComboSlapFrame0034_18
+  - first:
+      213: -2662005543497535988
+    second: ComboSlapFrame0034_19
+  - first:
+      213: -8179256121641760291
+    second: ComboSlapFrame0034_20
+  - first:
+      213: 3170992023869130283
+    second: ComboSlapFrame0034_21
+  - first:
+      213: -1380636584645430464
+    second: ComboSlapFrame0034_22
+  - first:
+      213: 8375469742192776966
+    second: ComboSlapFrame0034_23
+  - first:
+      213: 4883141792146341189
+    second: ComboSlapFrame0034_24
+  - first:
+      213: 1897502960342208735
+    second: ComboSlapFrame0034_25
+  - first:
+      213: -4271026096387919151
+    second: ComboSlapFrame0034_26
+  - first:
+      213: -8664795007994868537
+    second: ComboSlapFrame0034_27
+  - first:
+      213: 7421324147014302687
+    second: ComboSlapFrame0034_28
+  - first:
+      213: -6044073700317392549
+    second: ComboSlapFrame0034_29
+  - first:
+      213: -1137652879240201757
+    second: ComboSlapFrame0034_30
+  - first:
+      213: -8960243908995250071
+    second: ComboSlapFrame0034_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ComboSlapFrame0034_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1439
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908c0431e77c6d0d0800000000000000
+      internalID: -3398309524501641207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ed6aa749658afc64d8a389fc9c5a4a4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ComboSlapFrame0034_0: -3398309524501641207
+      ComboSlapFrame0034_1: -9011028808323888238
+      ComboSlapFrame0034_10: -6155539718400158708
+      ComboSlapFrame0034_11: -7840163034722523919
+      ComboSlapFrame0034_12: 4959337836451873268
+      ComboSlapFrame0034_13: -6636710614779477813
+      ComboSlapFrame0034_14: -5112086686994282027
+      ComboSlapFrame0034_15: 3026360706775802950
+      ComboSlapFrame0034_16: -7856270735560604764
+      ComboSlapFrame0034_17: -4854823841511867005
+      ComboSlapFrame0034_18: 7407070166756422205
+      ComboSlapFrame0034_19: -2662005543497535988
+      ComboSlapFrame0034_2: -7268017903796864971
+      ComboSlapFrame0034_20: -8179256121641760291
+      ComboSlapFrame0034_21: 3170992023869130283
+      ComboSlapFrame0034_22: -1380636584645430464
+      ComboSlapFrame0034_23: 8375469742192776966
+      ComboSlapFrame0034_24: 4883141792146341189
+      ComboSlapFrame0034_25: 1897502960342208735
+      ComboSlapFrame0034_26: -4271026096387919151
+      ComboSlapFrame0034_27: -8664795007994868537
+      ComboSlapFrame0034_28: 7421324147014302687
+      ComboSlapFrame0034_29: -6044073700317392549
+      ComboSlapFrame0034_3: -6210302047134209146
+      ComboSlapFrame0034_30: -1137652879240201757
+      ComboSlapFrame0034_31: -8960243908995250071
+      ComboSlapFrame0034_4: 2963347786236748860
+      ComboSlapFrame0034_5: -7751466595412953154
+      ComboSlapFrame0034_6: -6872410749907131603
+      ComboSlapFrame0034_7: 5743522780240469254
+      ComboSlapFrame0034_8: -4295312247560748599
+      ComboSlapFrame0034_9: 2708274142982163914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

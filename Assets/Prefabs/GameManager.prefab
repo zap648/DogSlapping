@@ -48,17 +48,19 @@ MonoBehaviour:
   score: 0
   highScore: 0
   combo: 0
-  slapTimer: 2
+  slapTimer: 1.5
   slapCooldown: 0.5
   dogs:
   - {fileID: 7875544044749514276, guid: 93de42c6dc7f4a14fa1287ff91f0327c, type: 3}
   slapThingy: {fileID: 0}
+  comboThingy: {fileID: 0}
   startMenu: {fileID: 0}
   deathMenu: {fileID: 0}
   slapSound: {fileID: 4082649407327544719}
+  smallSlapSound: {fileID: 0}
+  comboSlapSound: {fileID: 0}
   gameOver: 0
-  mask: {fileID: 3321196461952810476, guid: b73fb2a2792d6394fae7720cd89afecb, type: 3}
-  slappedAnimal: {fileID: 3906841351703879510, guid: 81327d7336453434aa5c9a80991e58bd, type: 3}
+  highPriAnimation: 0
 --- !u!82 &4082649407327544719
 AudioSource:
   m_ObjectHideFlags: 0
