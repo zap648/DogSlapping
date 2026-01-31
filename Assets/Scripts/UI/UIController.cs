@@ -3,6 +3,7 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     public GameObject startCanvas;
+    public GameObject loseCanvas;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +34,14 @@ public class UIController : MonoBehaviour
     public void LoseGame()
     {
         Debug.Log("You are murderer");
+        loseCanvas.SetActive(true);
+    }
+
+    public void MainMenu()
+    {
         startCanvas.SetActive(true);
+        loseCanvas.SetActive(false);
+        Debug.Log("main menu");
+
     }
 }

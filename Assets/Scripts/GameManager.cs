@@ -11,8 +11,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> dogs;
     [SerializeField] private GameObject slapThingy;
     [SerializeField] private GameObject startMenu;
+    [SerializeField] private GameObject deathMenu;
     [SerializeField] private AudioSource slapSound;
     [SerializeField] private bool gameOver;
+
+    public Text scoreText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,7 +26,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (startMenu.activeSelf)
+        if (startMenu.activeSelf || deathMenu.activeSelf) //
         {
             return;
         }
@@ -70,6 +73,7 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         gameOver = true;
+        Destroy(dog); //
         Camera.main.GetComponent<UIController>().LoseGame();
         Debug.Log("Game Over!");
     }
