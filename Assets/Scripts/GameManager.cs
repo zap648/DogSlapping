@@ -15,8 +15,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioSource slapSound;
     [SerializeField] private bool gameOver;
 
-    public Text scoreText;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
