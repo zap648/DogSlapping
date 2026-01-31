@@ -2,11 +2,15 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Rendering;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] public int score;
     [SerializeField] private int highScore;
+    [SerializeField] private int combo;
+    [SerializeField] private float slapTimer = 2.0f;
+    private float slapTimerMax;
     private GameObject dog;
     [SerializeField] private List<GameObject> dogs;
     [SerializeField] private GameObject slapThingy;
@@ -19,12 +23,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         slapThingy.SetActive(false);
+        slapTimerMax = slapTimer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (startMenu.activeSelf || deathMenu.activeSelf) //
+        if (startMenu.activeSelf || deathMenu.activeSelf) // If the menus are active, this will prevent the game from running
         {
             return;
         }
@@ -34,6 +39,8 @@ public class GameManager : MonoBehaviour
             int index = Random.Range(0, dogs.Count);
             dog = Instantiate(dogs[index], new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), Quaternion.identity);
             dog.transform.position = dog.transform.position.normalized * 15;
+            dog.GetComponent<Dog>().slapTimer = slapTimer;
+            dog.GetComponent<Dog>().timeMultiplier = slapTimerMax / slapTimer;
         }
         else if (Input.anyKeyDown)
         {
@@ -46,6 +53,7 @@ public class GameManager : MonoBehaviour
             
             Slap();
         }
+        SpeedUp();
     }
 
     private void Slap()
@@ -74,6 +82,13 @@ public class GameManager : MonoBehaviour
         Destroy(dog); //
         Camera.main.GetComponent<UIController>().LoseGame();
         Debug.Log("Game Over!");
+    }
+
+    private void SpeedUp()
+    {
+        slapTimer -= 0.01f * Time.deltaTime;
+        if (slapTimer < 0.5f)
+            slapTimer = 0.5f;
     }
 
     IEnumerator SlapThing(float time)
