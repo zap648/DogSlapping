@@ -15,7 +15,6 @@ public class UIController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        score = GameObject.Find("GameManager").GetComponent<GameManager>().score;
     }
 
     // Update is called once per frame
@@ -24,6 +23,7 @@ public class UIController : MonoBehaviour
         TriggerButton();
         ShowBackground();
         if (gameCanvas.activeSelf) UpdateScoreText();
+        score = GameObject.Find("GameManager").GetComponent<GameManager>().score;
 
         //Change the level after a certain score has been obtained.
         if (score == 10) level = 1;
@@ -67,6 +67,7 @@ public class UIController : MonoBehaviour
     void UpdateScoreText()
     {
         scoreText.text = score.ToString();
+        Debug.Log(score);
     }
 
     void ShowBackground()
