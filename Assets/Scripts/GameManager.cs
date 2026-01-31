@@ -1,10 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Rendering;
-using JetBrains.Annotations;
-using System.Runtime.CompilerServices;
 
 public class GameManager : MonoBehaviour
 {
@@ -64,7 +60,7 @@ public class GameManager : MonoBehaviour
         {
             int index = Random.Range(0, dogs.Count);
             dog = Instantiate(dogs[index], new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)), Quaternion.identity);
-            dog.transform.position = dog.transform.position.normalized * 15;
+            dog.transform.position = dog.transform.position.normalized * 10;
             dog.GetComponent<Dog>().timeMultiplier = slapTimerMax / slapTimer;
         }
         else if (Input.anyKeyDown && slapCooldown < 0.0f)
@@ -126,7 +122,7 @@ public class GameManager : MonoBehaviour
     void DagApproves()
     {
         Debug.Log("Dag Approves!");
-        StartCoroutine(DagThing(1.0f));
+        StartCoroutine(DagThing(2.0f));
     }
 
     void ComboSlap()

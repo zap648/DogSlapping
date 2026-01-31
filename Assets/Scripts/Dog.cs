@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Dog : MonoBehaviour
 {
@@ -55,7 +54,17 @@ public class Dog : MonoBehaviour
         else if (isLeaving)
             MoveOut();
 
-        if (slappable)
+        if (transform.position.x > 9.0f || transform.position.x < -9.0f ||
+            transform.position.y > 5.0f || transform.position.y < -5.0f)
+        {
+            slappable = false;
+        }
+        else if (maskRenderer.sprite != null)
+        {
+            slappable = true;
+        }
+
+        if (!isEntering)
         {
             isLeaving = true;
         }
@@ -72,7 +81,6 @@ public class Dog : MonoBehaviour
             startPosition = -startPosition;
             return;
         }
-        slappable = true;
         transform.position = Vector2.Lerp(startPosition, endPosition, elapsedTime);
         elapsedTime += timeMultiplier * Time.deltaTime;
     }
@@ -85,6 +93,10 @@ public class Dog : MonoBehaviour
             elapsedTime = 0.0f;
             transform.position = startPosition;
             isLeaving = false;
+            if (isSad && maskRenderer.sprite != null)
+            {
+                gameManager.combo = 0;
+            }
             Destroy(gameObject);
             return;
         }
