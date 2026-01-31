@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int score;
+    [SerializeField] public int score;
     [SerializeField] private int highScore;
     private GameObject dog;
     [SerializeField] private List<GameObject> dogs;

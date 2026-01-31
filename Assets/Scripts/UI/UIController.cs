@@ -1,9 +1,11 @@
 using UnityEngine;
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
     public GameObject startCanvas;
     public GameObject loseCanvas;
+    public TMP_Text scoreText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,6 +16,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         TriggerButton();
+        UpdateScoreText();
     }
 
     void TriggerButton()
@@ -43,5 +46,11 @@ public class UIController : MonoBehaviour
         loseCanvas.SetActive(false);
         Debug.Log("main menu");
 
+    }
+
+    void UpdateScoreText()
+    {
+        scoreText = GameObject.Find("GameManager").GetComponent<GameManager>().score;
+        Debug.Log(scoreText);
     }
 }
