@@ -12,23 +12,27 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int score;
     [SerializeField] private int highScore;
     [SerializeField] public int combo;
-    [SerializeField] private float slapTimer = 2.0f;
+    [SerializeField] public float slapTimer = 2.0f;
     [SerializeField] private float slapCooldown = 0.5f;
-    private float slapTimerMax;
+    public float slapTimerMax;
     private float slapCooldownMax;
+
     [Header("Dog Management")]
     [SerializeField] private List<GameObject> dogs;
-    private GameObject dog;
+    public GameObject dog;
     [SerializeField] private GameObject slapThingy;
+    [SerializeField] private GameObject dagNiceThingy;
     [SerializeField] private GameObject comboThingy;
+
     [Header("UI Elements")]
     [SerializeField] private GameObject startMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private AudioSource slapSound;
     [SerializeField] public AudioClip smallSlapSound;
     [SerializeField] public AudioClip comboSlapSound;
+
     [Header("Game State")]
-    [SerializeField] private bool gameOver;
+    [SerializeField] public bool gameOver;
     [SerializeField] public bool highPriAnimation;
 
 
@@ -77,6 +81,11 @@ public class GameManager : MonoBehaviour
                 slapSound.Play();
                 Slap();
             }
+
+            if (combo % 5 == 0 && combo != 0 && combo % 20 != 0)
+            {
+                DagApproves();
+            }
         }
         SpeedUp();
 
@@ -88,9 +97,6 @@ public class GameManager : MonoBehaviour
 
         if (gameOver)
         {
-            slapTimer = slapTimerMax;
-            gameOver = false;
-            Destroy(dog);
             return;
         }
 
@@ -115,6 +121,12 @@ public class GameManager : MonoBehaviour
             highScore = score;
 
         slapCooldown = slapCooldownMax;
+    }
+
+    void DagApproves()
+    {
+        Debug.Log("Dag Approves!");
+        StartCoroutine(DagThing(1.0f));
     }
 
     void ComboSlap()
@@ -144,6 +156,14 @@ public class GameManager : MonoBehaviour
         slapThingy.SetActive(true);
         yield return new WaitForSeconds(time);
         slapThingy.SetActive(false);
+    }
+
+    IEnumerator DagThing(float time)
+    {
+        Debug.Log("Dag Approves!");
+        dagNiceThingy.SetActive(true);
+        yield return new WaitForSeconds(time);
+        dagNiceThingy.SetActive(false);
     }
 
     IEnumerator ComboThing(float time)

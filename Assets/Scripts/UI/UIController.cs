@@ -19,10 +19,12 @@ public class UIController : MonoBehaviour
     public AudioSource audioSource;
 
     private int level = 0;
+    private GameManager gameManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -31,8 +33,10 @@ public class UIController : MonoBehaviour
         TriggerButton();
         ShowBackground();
         if (gameCanvas.activeSelf) UpdateScoreText();
-        score = GameObject.Find("GameManager").GetComponent<GameManager>().score;
-        combo = GameObject.Find("GameManager").GetComponent<GameManager>().combo;
+        {
+            score = gameManager.score;
+            combo = gameManager.combo;
+        }
 
         //Change the level after a certain score has been obtained.
         if (score == 10) level = 1;
@@ -74,6 +78,10 @@ public class UIController : MonoBehaviour
     {
         startCanvas.SetActive(true);
         loseCanvas.SetActive(false);
+        gameManager.gameOver = false;
+        gameManager.slapTimer = gameManager.slapTimerMax;
+        gameManager.gameOver = false;
+        Destroy(gameManager.dog);
         Debug.Log("main menu");
         audioSource.clip = mainMenuMusic;
         audioSource.Play();
