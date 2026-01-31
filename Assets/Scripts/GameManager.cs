@@ -6,17 +6,21 @@ using UnityEditor.Rendering;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Game Stats")]
     [SerializeField] public int score;
     [SerializeField] private int highScore;
     [SerializeField] private int combo;
     [SerializeField] private float slapTimer = 2.0f;
     private float slapTimerMax;
-    private GameObject dog;
+    [Header("Dog Management")]
     [SerializeField] private List<GameObject> dogs;
+    private GameObject dog;
     [SerializeField] private GameObject slapThingy;
+    [Header("UI Elements")]
     [SerializeField] private GameObject startMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private AudioSource slapSound;
+    [Header("Game State")]
     [SerializeField] private bool gameOver;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
