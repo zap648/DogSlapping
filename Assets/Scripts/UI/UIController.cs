@@ -43,6 +43,7 @@ public class UIController : MonoBehaviour
         if (Input.anyKeyDown && startCanvas.activeSelf)
         {
             StartGame();
+            CameraShake();
         }
         //else if (Input.anyKeyDown && !startCanvas.activeSelf) LoseGame();
     }
@@ -92,5 +93,12 @@ public class UIController : MonoBehaviour
             }
             else background.SetActive(false);
         }
+    }
+
+    void CameraShake()
+    {
+        Camera.main.fieldOfView += 10;
+        Debug.Log("shakek");
+        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z)
     }
 }
