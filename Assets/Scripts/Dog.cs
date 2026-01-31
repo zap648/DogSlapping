@@ -13,6 +13,11 @@ public class Dog : MonoBehaviour
     private Vector2 startPosition;
     private Vector2 endPosition = Vector2.zero;
 
+    public Sprite SadMask;
+    public Sprite HappyMask;
+
+    public SpriteRenderer maskRenderer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,11 +27,15 @@ public class Dog : MonoBehaviour
         {
             // Set sad dog sprite or animation here
             GetComponent<SpriteRenderer>().color = Color.blue; // Example: change color to blue for sad dog
+            maskRenderer.sprite = SadMask;
+
         }
         else
         {
             // Set happy dog sprite or animation here
             GetComponent<SpriteRenderer>().color = Color.yellow; // Example: change color to yellow for happy dog
+            maskRenderer.sprite = HappyMask;
+
         }
     }
 
@@ -60,9 +69,9 @@ public class Dog : MonoBehaviour
             transform.position = endPosition;
             isEntering = false;
             startPosition = -startPosition;
-            slappable = true;
             return;
         }
+        slappable = true;
         transform.position = Vector2.Lerp(startPosition, endPosition, elapsedTime);
         elapsedTime += timeMultiplier * Time.deltaTime;
     }
@@ -81,7 +90,9 @@ public class Dog : MonoBehaviour
         transform.position = Vector2.Lerp(endPosition, startPosition, elapsedTime);
         elapsedTime += timeMultiplier * Time.deltaTime;
 
-        if (isSad) { GetComponent<SpriteRenderer>().sprite = null; }
+        if (isSad) { GetComponent<SpriteRenderer>().sprite = null;
+            maskRenderer.sprite = null;
+        }
 
         
     }
@@ -91,6 +102,12 @@ public class Dog : MonoBehaviour
         if (!slappable)
         {
             return false;
+        }
+
+        if (isSad)
+        {
+            GetComponent<SpriteRenderer>().sprite = null;
+            maskRenderer.sprite = null;
         }
 
         if (isSad)

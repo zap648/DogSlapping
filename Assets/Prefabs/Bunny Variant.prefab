@@ -151,6 +151,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4304366974792426524, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
+      propertyPath: SadMask
+      value: 
+      objectReference: {fileID: 6649924099810058157, guid: 66f502a7f304bf043839e8f88f080782, type: 3}
+    - target: {fileID: 4304366974792426524, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
+      propertyPath: HappyMask
+      value: 
+      objectReference: {fileID: -4779009027206569090, guid: 9aa40dce2ccda3041b8021d28f52db73, type: 3}
+    - target: {fileID: 4304366974792426524, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
+      propertyPath: maskRenderer
+      value: 
+      objectReference: {fileID: 5933276681279183156}
     - target: {fileID: 6486127346452770155, guid: a638fa7211d67614da05a0d59c9e9594, type: 3}
       propertyPath: m_Name
       value: Bunny Variant
